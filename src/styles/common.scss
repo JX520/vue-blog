@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('./fonts/iconfont.eot');
+  /* IE9 */
+  src: url('./fonts/iconfont.eot#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMoAAsAAAAABugAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBZIFlATYCJAMICwYABCAFhG0HPRsYBhEVlDlkPw5jx/TWZqYOtSxG5kVumzoS/zmIL//+6zMz7zn6oEOJC6YwIimItjaDQpjZRdGtyxGXDovg/9bauedJh6+2i+BVZeXP2tiTRfN1UoIQCYlMIkR8nsvp3VVAgcwPlMsYg8aafNQLqBcHUkBjbYqsQALwHsOprgqWzar+4xDATYQ0Ul5Z385igHECyOwZUyNsJYDBqGkngr1jqUG2U8WpNqhbwLbk+/KJnJygsGmgqnmyYpz3Nguz9HJrObcRQbCAIFbbAA2kAQPS3ploZBCVrXEnDjE4V7nA2yzLiuzIWf88xA6UegEI49J3kgXyV00rgNdqSw2YmtUdpGbR3budt2+3757ilurOnY5797r0ijMbT1Haf3HjpRC9L4D1Ovp7cflO9PLp7okiialmfXDQGaT8eXRfUa8ICK/I8zlWGlj3PiGjasM6NexIjHcdZrenp1xQFM3jd/kdWDkw6ep25Hd0Dw9s5d9yUSzf2w7sDl+HfiEXK/JhESIxVbrWljYkHigdyfRZ8PmxSPjJF7b5zF9x/nfE+mmKAVjLdale/gf/hqvBcX+G+vl/nB4DwGP7UiU+a7mB5irgfAynwN8pI9YYRwE2ZSxZZ6Oi5jHVbgyDBXh8PJ1r9H/2jODEf4bLQXgBjZM40rDSYMNDHuw4KYKbVFWrPfhayCDGBfDWLRmKBr5Q0vONsoEfssL6Q9XMP2oGldFy3njLtnlJa0eCpyFE/itKAs6w79CttPwYopx4sqxIOOcgVRJGtmHV0wfAQK4xQz1FjtYYYckp2menASEcCclTCLQRay0Wpom73mQEnBZadkjAo4EQ4nuFJAIcg6PmWqvx+WMgkiM8coDWFj4HJCXpHLEZLAJ5oGUk2rO8ojyJODQNQzCJo5B9NggQBIeI7kEpENAM8YyYsGBiPUzVGvvr6b/bQqHQAqZS2Eszvta2p5Lg6On7qC2PkC3HLRQAAA==') format('woff2'),
+    url('./fonts/iconfont.woff') format('woff'),
+    // url('./fonts/iconfont.ttf') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./fonts/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+// @font-face {
+//     font-family: 'iconfont';
+//     src: url('iconfont.eot');
+//     src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+//         url('iconfont.woff2') format('woff2'),
+//         url('iconfont.woff') format('woff'),
+//         url('iconfont.ttf') format('truetype'),
+//         url('iconfont.svg#iconfont') format('svg');
+//   }
+
+body {
+  // height: 100%;
+  color: #4c4948;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  // font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.svg-style {
+  width: 2rem;
+  height: 2rem;
+
+  &:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+  }
+}
+
+/* 滚动条设置*/
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #49b1f5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.border-color {
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-top: 1px solid lightblue;
+  border-left: 1px solid lightgreen;
+  border-right: 1px solid lightskyblue;
+  border-bottom: 1px solid pink;
+  border-radius: 5px;
+  background: white;
+}
